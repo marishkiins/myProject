@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+rWc/o0MuS8=",
+  "dgSpecHash": "46HHjNbk0j0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Smirn\\Desktop\\BackendApi\\BackendApi\\BackendApi.csproj",
+  "projectFilePath": "C:\\Users\\Smirn\\Desktop\\myProject\\BackendApi\\BackendApi\\BackendApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Smirn\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\Smirn\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

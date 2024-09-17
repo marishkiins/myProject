@@ -1,9 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Smirn\\Desktop\\BackendApi\\",
+  "WorkspaceRootPath": "C:\\Users\\Smirn\\Desktop\\myProject\\BackendApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{060E6FF4-7612-4C50-A299-E9AA3852C1EF}|BackendApi\\BackendApi.csproj|c:\\users\\smirn\\desktop\\backendapi\\backendapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C89B6450-1B40-4518-8AAA-16475515C167}|DataAccess\\DataAccess.csproj|c:\\users\\smirn\\desktop\\myproject\\backendapi\\dataaccess\\dataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C89B6450-1B40-4518-8AAA-16475515C167}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\dataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B006B88-99AF-4C29-85ED-6F68459C75B0}|BusinessLogic\\BusinessLogic.csproj|c:\\users\\smirn\\desktop\\myproject\\backendapi\\businesslogic\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B006B88-99AF-4C29-85ED-6F68459C75B0}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F6800F-051F-405D-9028-E75C2C75BDA4}|Domain\\Domain.csproj|c:\\users\\smirn\\desktop\\myproject\\backendapi\\domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2F6800F-051F-405D-9028-E75C2C75BDA4}|Domain\\Domain.csproj|solutionrelative:domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C89B6450-1B40-4518-8AAA-16475515C167}|DataAccess\\DataAccess.csproj|c:\\users\\smirn\\desktop\\myproject\\backendapi\\dataaccess\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C89B6450-1B40-4518-8AAA-16475515C167}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{060E6FF4-7612-4C50-A299-E9AA3852C1EF}|BackendApi\\BackendApi.csproj|c:\\users\\smirn\\desktop\\myproject\\backendapi\\backendapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{060E6FF4-7612-4C50-A299-E9AA3852C1EF}|BackendApi\\BackendApi.csproj|solutionrelative:backendapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -14,21 +30,73 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DataAccess",
+              "DocumentMoniker": "C:\\Users\\Smirn\\Desktop\\myProject\\BackendApi\\DataAccess\\DataAccess.csproj",
+              "RelativeDocumentMoniker": "DataAccess\\DataAccess.csproj",
+              "ToolTip": "C:\\Users\\Smirn\\Desktop\\myProject\\BackendApi\\DataAccess\\DataAccess.csproj",
+              "RelativeToolTip": "DataAccess\\DataAccess.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-17T19:22:39.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Smirn\\Desktop\\myProject\\BackendApi\\BusinessLogic\\Class1.cs",
+              "RelativeDocumentMoniker": "BusinessLogic\\Class1.cs",
+              "ToolTip": "C:\\Users\\Smirn\\Desktop\\myProject\\BackendApi\\BusinessLogic\\Class1.cs",
+              "RelativeToolTip": "BusinessLogic\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T19:22:05.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Smirn\\Desktop\\myProject\\BackendApi\\Domain\\Class1.cs",
+              "RelativeDocumentMoniker": "Domain\\Class1.cs",
+              "ToolTip": "C:\\Users\\Smirn\\Desktop\\myProject\\BackendApi\\Domain\\Class1.cs",
+              "RelativeToolTip": "Domain\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T19:21:34.183Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Smirn\\Desktop\\myProject\\BackendApi\\DataAccess\\Class1.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Class1.cs",
+              "ToolTip": "C:\\Users\\Smirn\\Desktop\\myProject\\BackendApi\\DataAccess\\Class1.cs",
+              "RelativeToolTip": "DataAccess\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T19:18:31.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\Smirn\\Desktop\\BackendApi\\BackendApi\\Controllers\\WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\Smirn\\Desktop\\myProject\\BackendApi\\BackendApi\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "BackendApi\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\Smirn\\Desktop\\BackendApi\\BackendApi\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\Smirn\\Desktop\\myProject\\BackendApi\\BackendApi\\Controllers\\WeatherForecastController.cs",
               "RelativeToolTip": "BackendApi\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAAAGUAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAFQAAAAAAAAAAABQwGUAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-07T12:25:22.061Z",
               "EditorCaption": ""

@@ -5,7 +5,11 @@ VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BackendApi", "BackendApi\BackendApi.csproj", "{060E6FF4-7612-4C50-A299-E9AA3852C1EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{C89B6450-1B40-4518-8AAA-16475515C167}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess", "DataAccess\DataAccess.csproj", "{C89B6450-1B40-4518-8AAA-16475515C167}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{B2F6800F-051F-405D-9028-E75C2C75BDA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogic", "BusinessLogic\BusinessLogic.csproj", "{2B006B88-99AF-4C29-85ED-6F68459C75B0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{C89B6450-1B40-4518-8AAA-16475515C167}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C89B6450-1B40-4518-8AAA-16475515C167}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C89B6450-1B40-4518-8AAA-16475515C167}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2F6800F-051F-405D-9028-E75C2C75BDA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2F6800F-051F-405D-9028-E75C2C75BDA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2F6800F-051F-405D-9028-E75C2C75BDA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2F6800F-051F-405D-9028-E75C2C75BDA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B006B88-99AF-4C29-85ED-6F68459C75B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B006B88-99AF-4C29-85ED-6F68459C75B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B006B88-99AF-4C29-85ED-6F68459C75B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B006B88-99AF-4C29-85ED-6F68459C75B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

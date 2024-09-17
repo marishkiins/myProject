@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Smirn\\Desktop\\BackendApi\\DataAccess\\DataAccess.csproj": {}
+    "C:\\Users\\Smirn\\Desktop\\myProject\\BackendApi\\DataAccess\\DataAccess.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Smirn\\Desktop\\BackendApi\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\Smirn\\Desktop\\myProject\\BackendApi\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Smirn\\Desktop\\BackendApi\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\Smirn\\Desktop\\myProject\\BackendApi\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\Smirn\\Desktop\\BackendApi\\DataAccess\\DataAccess.csproj",
+        "projectPath": "C:\\Users\\Smirn\\Desktop\\myProject\\BackendApi\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\Smirn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Smirn\\Desktop\\BackendApi\\DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\Smirn\\Desktop\\myProject\\BackendApi\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -48,6 +48,18 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
