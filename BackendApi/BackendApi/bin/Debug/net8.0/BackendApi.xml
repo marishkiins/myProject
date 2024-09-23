@@ -33,7 +33,7 @@
              <param name="model">Пользователь</param>
              <returns></returns>
         </member>
-        <member name="M:BackendApi.Controllers.UserController.Add(Domain.Models.User)">
+        <member name="M:BackendApi.Controllers.UserController.Add(BackendApi.Contracts.User.CreateUserRequest)">
              <summary>
              Создание нового пользователя
              </summary>
@@ -59,6 +59,7 @@
             
                  PUT /Todo
                  {
+                    "id" : "1",
                     "email" : "A4Tech Bloody B188",
                     "password" : "!Pa$$word123@",
                  }
@@ -76,6 +77,7 @@
             
                  DELETE /Todo
                  {
+                     "id" : "1",
                     "email" : "A4Tech Bloody B188",
                     "password" : "!Pa$$word123@",
                  }

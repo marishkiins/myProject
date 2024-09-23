@@ -1,6 +1,8 @@
 ﻿using Domain.Interfaces;
 using Domain.Models;
 using Microsoft.AspNetCore.Mvc;
+using BackendApi.Contracts;
+using BackendApi.Contracts.User;
 
 namespace BackendApi.Controllers
 {
@@ -51,9 +53,10 @@ namespace BackendApi.Controllers
         /// <returns></returns>
 
         // GET api/<UsersController>
-        [HttpGet("{id}")]
+        [HttpGet(template:"{id}")]
         public async Task<IActionResult> GetById(int id)
         {
+ 
             return Ok(await _userService.GetById(id));
         }
 
@@ -77,9 +80,14 @@ namespace BackendApi.Controllers
 
         // POST api/<UsersController>
         [HttpPost]
-        public async Task<IActionResult> Add(User user)
+        public async Task<IActionResult> Add(CreateUserRequest request)
         {
-            await _userService.Create(user);
+            var userDto = new User()
+            {
+                Email = request.Email,
+                Password = request.Password,
+            };
+            await _userService.Create(userDto);
             return Ok();
         }
 

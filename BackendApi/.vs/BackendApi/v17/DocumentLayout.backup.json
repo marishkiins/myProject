@@ -7,16 +7,24 @@
       "RelativeMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|solutionrelative:backendapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|c:\\users\\smirn\\desktop\\myproject\\backendapi\\domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|solutionrelative:domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|c:\\users\\smirn\\desktop\\myproject\\backendapi\\backendapi\\contracts\\user\\createuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|solutionrelative:backendapi\\contracts\\user\\createuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|c:\\users\\smirn\\desktop\\myproject\\backendapi\\backendapi\\contracts\\user\\getuserresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|solutionrelative:backendapi\\contracts\\user\\getuserresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|c:\\users\\smirn\\desktop\\myproject\\backendapi\\backendapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|solutionrelative:backendapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|c:\\users\\smirn\\desktop\\myproject\\backendapi\\backendapi\\backendapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{0C84A86A-9C6E-41CE-887A-AB5121CAD168}|BackendApi\\BackendApi.csproj|solutionrelative:backendapi\\backendapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|c:\\users\\smirn\\desktop\\myproject\\backendapi\\domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|solutionrelative:domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0CA1BE90-590C-414A-A115-D65DBE2C06D5}|Domain\\Domain.csproj|c:\\users\\smirn\\desktop\\myproject\\backendapi\\domain\\migrations\\smirnovaplangodbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,17 +46,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "GetUserResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Smirn\\Desktop\\myProject\\BackendApi\\BackendApi\\Contracts\\User\\GetUserResponse.cs",
+              "RelativeDocumentMoniker": "BackendApi\\Contracts\\User\\GetUserResponse.cs",
+              "ToolTip": "C:\\Users\\Smirn\\Desktop\\myProject\\BackendApi\\BackendApi\\Contracts\\User\\GetUserResponse.cs",
+              "RelativeToolTip": "BackendApi\\Contracts\\User\\GetUserResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T20:29:25.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateUserRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Smirn\\Desktop\\myProject\\BackendApi\\BackendApi\\Contracts\\User\\CreateUserRequest.cs",
+              "RelativeDocumentMoniker": "BackendApi\\Contracts\\User\\CreateUserRequest.cs",
+              "ToolTip": "C:\\Users\\Smirn\\Desktop\\myProject\\BackendApi\\BackendApi\\Contracts\\User\\CreateUserRequest.cs",
+              "RelativeToolTip": "BackendApi\\Contracts\\User\\CreateUserRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T20:29:00.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\Smirn\\Desktop\\myProject\\BackendApi\\Domain\\Models\\User.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\User.cs",
               "ToolTip": "C:\\Users\\Smirn\\Desktop\\myProject\\BackendApi\\Domain\\Models\\User.cs",
               "RelativeToolTip": "Domain\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-23T20:12:59.24Z",
               "EditorCaption": ""
@@ -59,16 +93,16 @@
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\Smirn\\Desktop\\myProject\\BackendApi\\BackendApi\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "BackendApi\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\Smirn\\Desktop\\myProject\\BackendApi\\BackendApi\\Controllers\\UserController.cs",
-              "RelativeToolTip": "BackendApi\\Controllers\\UserController.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAowCYAAAAkAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Smirn\\Desktop\\myProject\\BackendApi\\BackendApi\\Controllers\\UserController.cs*",
+              "RelativeToolTip": "BackendApi\\Controllers\\UserController.cs*",
+              "ViewState": "AgIAADEAAAAAAAAAAAAowDoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-23T20:07:15.197Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Smirn\\Desktop\\myProject\\BackendApi\\BackendApi\\Program.cs",
               "RelativeDocumentMoniker": "BackendApi\\Program.cs",
@@ -76,12 +110,11 @@
               "RelativeToolTip": "BackendApi\\Program.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAwwDAAAABgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T20:05:15.66Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T20:05:15.66Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "20240923200439_MigratonName.cs",
               "DocumentMoniker": "C:\\Users\\Smirn\\Desktop\\myProject\\BackendApi\\Domain\\Migrations\\20240923200439_MigratonName.cs",
               "RelativeDocumentMoniker": "Domain\\Migrations\\20240923200439_MigratonName.cs",
@@ -89,12 +122,11 @@
               "RelativeToolTip": "Domain\\Migrations\\20240923200439_MigratonName.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T20:04:40.37Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T20:04:40.37Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "BackendApi.csproj",
               "DocumentMoniker": "C:\\Users\\Smirn\\Desktop\\myProject\\BackendApi\\BackendApi\\BackendApi.csproj",
               "RelativeDocumentMoniker": "BackendApi\\BackendApi.csproj",
@@ -102,12 +134,11 @@
               "RelativeToolTip": "BackendApi\\BackendApi.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-23T19:56:46.191Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T19:56:46.191Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "SmirnovaPlanGoDbContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\Smirn\\Desktop\\myProject\\BackendApi\\Domain\\Migrations\\SmirnovaPlanGoDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "Domain\\Migrations\\SmirnovaPlanGoDbContextModelSnapshot.cs",
@@ -115,12 +146,11 @@
               "RelativeToolTip": "Domain\\Migrations\\SmirnovaPlanGoDbContextModelSnapshot.cs",
               "ViewState": "AgIAAAkBAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T20:04:55.181Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T20:04:55.181Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "SmirnovaPlanGoDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Smirn\\Desktop\\myProject\\BackendApi\\Domain\\Models\\SmirnovaPlanGoDbContext.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\SmirnovaPlanGoDbContext.cs",
@@ -128,8 +158,7 @@
               "RelativeToolTip": "Domain\\Models\\SmirnovaPlanGoDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T20:03:08.423Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T20:03:08.423Z"
             }
           ]
         }
