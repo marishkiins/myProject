@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Smirn\\Desktop\\BackendApi\\BackendApi\\BackendApi.csproj": {}
+    "C:\\Users\\Smirn\\Desktop\\myProject\\BackendApi\\BackendApi\\BackendApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Smirn\\Desktop\\BackendApi\\BackendApi\\BackendApi.csproj": {
+    "C:\\Users\\Smirn\\Desktop\\myProject\\BackendApi\\BackendApi\\BackendApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Smirn\\Desktop\\BackendApi\\BackendApi\\BackendApi.csproj",
+        "projectUniqueName": "C:\\Users\\Smirn\\Desktop\\myProject\\BackendApi\\BackendApi\\BackendApi.csproj",
         "projectName": "BackendApi",
-        "projectPath": "C:\\Users\\Smirn\\Desktop\\BackendApi\\BackendApi\\BackendApi.csproj",
+        "projectPath": "C:\\Users\\Smirn\\Desktop\\myProject\\BackendApi\\BackendApi\\BackendApi.csproj",
         "packagesPath": "C:\\Users\\Smirn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Smirn\\Desktop\\BackendApi\\BackendApi\\obj\\",
+        "outputPath": "C:\\Users\\Smirn\\Desktop\\myProject\\BackendApi\\BackendApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -32,8 +32,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Smirn\\Desktop\\BackendApi\\BusinessLogic\\BusinessLogic.csproj": {
-                "projectPath": "C:\\Users\\Smirn\\Desktop\\BackendApi\\BusinessLogic\\BusinessLogic.csproj"
+              "C:\\Users\\Smirn\\Desktop\\myProject\\BackendApi\\BusinessLogic\\BusinessLogic.csproj": {
+                "projectPath": "C:\\Users\\Smirn\\Desktop\\myProject\\BackendApi\\BusinessLogic\\BusinessLogic.csproj"
+              },
+              "C:\\Users\\Smirn\\Desktop\\myProject\\BackendApi\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Smirn\\Desktop\\myProject\\BackendApi\\DataAccess\\DataAccess.csproj"
               }
             }
           }
@@ -81,14 +84,14 @@
         }
       }
     },
-    "C:\\Users\\Smirn\\Desktop\\BackendApi\\BusinessLogic\\BusinessLogic.csproj": {
+    "C:\\Users\\Smirn\\Desktop\\myProject\\BackendApi\\BusinessLogic\\BusinessLogic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Smirn\\Desktop\\BackendApi\\BusinessLogic\\BusinessLogic.csproj",
+        "projectUniqueName": "C:\\Users\\Smirn\\Desktop\\myProject\\BackendApi\\BusinessLogic\\BusinessLogic.csproj",
         "projectName": "BusinessLogic",
-        "projectPath": "C:\\Users\\Smirn\\Desktop\\BackendApi\\BusinessLogic\\BusinessLogic.csproj",
+        "projectPath": "C:\\Users\\Smirn\\Desktop\\myProject\\BackendApi\\BusinessLogic\\BusinessLogic.csproj",
         "packagesPath": "C:\\Users\\Smirn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Smirn\\Desktop\\BackendApi\\BusinessLogic\\obj\\",
+        "outputPath": "C:\\Users\\Smirn\\Desktop\\myProject\\BackendApi\\BusinessLogic\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -109,8 +112,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Smirn\\Desktop\\BackendApi\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\Smirn\\Desktop\\BackendApi\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\Smirn\\Desktop\\myProject\\BackendApi\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Smirn\\Desktop\\myProject\\BackendApi\\Domain\\Domain.csproj"
               }
             }
           }
@@ -149,14 +152,94 @@
         }
       }
     },
-    "C:\\Users\\Smirn\\Desktop\\BackendApi\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\Smirn\\Desktop\\myProject\\BackendApi\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Smirn\\Desktop\\BackendApi\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\Smirn\\Desktop\\myProject\\BackendApi\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\Smirn\\Desktop\\BackendApi\\DataAccess\\DataAccess.csproj",
+        "projectPath": "C:\\Users\\Smirn\\Desktop\\myProject\\BackendApi\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\Smirn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Smirn\\Desktop\\BackendApi\\DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\Smirn\\Desktop\\myProject\\BackendApi\\DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Smirn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Smirn\\Desktop\\myProject\\BackendApi\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Smirn\\Desktop\\myProject\\BackendApi\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Smirn\\Desktop\\myProject\\BackendApi\\Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Smirn\\Desktop\\myProject\\BackendApi\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "C:\\Users\\Smirn\\Desktop\\myProject\\BackendApi\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Smirn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Smirn\\Desktop\\myProject\\BackendApi\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

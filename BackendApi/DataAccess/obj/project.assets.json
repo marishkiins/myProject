@@ -1502,6 +1502,19 @@
             "rid": "win"
           }
         }
+      },
+      "Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.8"
+        },
+        "compile": {
+          "bin/placeholder/Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.dll": {}
+        }
       }
     }
   },
@@ -4096,10 +4109,16 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "Domain/1.0.0": {
+      "type": "project",
+      "path": "../Domain/Domain.csproj",
+      "msbuildProject": "../Domain/Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Domain >= 1.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.8",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.8"
     ]
@@ -4111,11 +4130,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Smirn\\Desktop\\BackendApi\\DataAccess\\DataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\Smirn\\Desktop\\myProject\\BackendApi\\DataAccess\\DataAccess.csproj",
       "projectName": "DataAccess",
-      "projectPath": "C:\\Users\\Smirn\\Desktop\\BackendApi\\DataAccess\\DataAccess.csproj",
+      "projectPath": "C:\\Users\\Smirn\\Desktop\\myProject\\BackendApi\\DataAccess\\DataAccess.csproj",
       "packagesPath": "C:\\Users\\Smirn\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Smirn\\Desktop\\BackendApi\\DataAccess\\obj\\",
+      "outputPath": "C:\\Users\\Smirn\\Desktop\\myProject\\BackendApi\\DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -4135,7 +4154,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Smirn\\Desktop\\myProject\\BackendApi\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\Smirn\\Desktop\\myProject\\BackendApi\\Domain\\Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
