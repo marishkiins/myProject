@@ -5,13 +5,13 @@ namespace DataAccess.Models;
 
 public partial class TaskAttachment
 {
-    public int AttachmentId { get; set; }
+    public int Id { get; set; }
 
-    public int? TaskId { get; set; }
+    public int TaskId { get; set; }
 
-    public string? FilePath { get; set; }
+    public string FilePath { get; set; } = null!;
 
-    public DateTime? UploadedAt { get; set; }
+    public DateTime? CreatedAt { get; set; }
 
-    public virtual Task? Task { get; set; }
+    public virtual Task Task { get; set; } = null!;
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Smirn\\Desktop\\myProject\\BackendApi\\Domain\\Domain.csproj": {}
+    "C:\\Users\\Smirn\\Desktop\\BackendApi\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Smirn\\Desktop\\myProject\\BackendApi\\Domain\\Domain.csproj": {
+    "C:\\Users\\Smirn\\Desktop\\BackendApi\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Smirn\\Desktop\\myProject\\BackendApi\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Smirn\\Desktop\\BackendApi\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Smirn\\Desktop\\myProject\\BackendApi\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\Smirn\\Desktop\\BackendApi\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Smirn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Smirn\\Desktop\\myProject\\BackendApi\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\Smirn\\Desktop\\BackendApi\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

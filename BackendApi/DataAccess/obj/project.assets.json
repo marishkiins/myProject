@@ -4111,11 +4111,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Smirn\\Desktop\\myProject\\BackendApi\\DataAccess\\DataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\Smirn\\Desktop\\BackendApi\\DataAccess\\DataAccess.csproj",
       "projectName": "DataAccess",
-      "projectPath": "C:\\Users\\Smirn\\Desktop\\myProject\\BackendApi\\DataAccess\\DataAccess.csproj",
+      "projectPath": "C:\\Users\\Smirn\\Desktop\\BackendApi\\DataAccess\\DataAccess.csproj",
       "packagesPath": "C:\\Users\\Smirn\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Smirn\\Desktop\\myProject\\BackendApi\\DataAccess\\obj\\",
+      "outputPath": "C:\\Users\\Smirn\\Desktop\\BackendApi\\DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

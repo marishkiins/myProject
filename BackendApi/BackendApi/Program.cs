@@ -1,4 +1,10 @@
 
+using BusinessLogic.Interfaces;
+using BusinessLogic.Services;
+using DataAccess.Models;
+using DataAccess.Wrapper;
+using Microsoft.EntityFrameworkCore;
+
 namespace BackendApi
 {
     public class Program
@@ -7,7 +13,14 @@ namespace BackendApi
         {
             var builder = WebApplication.CreateBuilder(args);
 
+
+            builder.Services.AddDbContext<SmirnovaPlanGoDbContext>(
+                optionsAction: options => options.UseSqlServer(
+                    connectionString: "Server=DESKTOP-0V11DFU;Database=SmirnovaPlanGoDB;Integrated Security=True;TrustServerCertificate=True;"));
             // Add services to the container.
+
+            builder.Services.AddScoped<IRepositoryWrapper, RepositoryWrapper>();
+            builder.Services.AddScoped<IUserService, UserService>();
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
