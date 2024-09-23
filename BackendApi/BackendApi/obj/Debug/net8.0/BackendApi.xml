@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BackendApi</name>
+    </assembly>
+    <members>
+        <member name="M:BackendApi.Controllers.UserController.GetAll">
+             <summary>
+             Все пользователи
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+                 GETall /Todo
+            
+             </remarks>
+             <param name="model">Пользователь</param>
+             <returns></returns>
+        </member>
+        <member name="M:BackendApi.Controllers.UserController.GetById(System.Int32)">
+             <summary>
+             Поиск пользователя по id
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+                 GETbyId /Todo
+                 {
+                    "id" : "1"
+                 }
+            
+             </remarks>
+             <param name="model">Пользователь</param>
+             <returns></returns>
+        </member>
+        <member name="M:BackendApi.Controllers.UserController.Add(Domain.Models.User)">
+             <summary>
+             Создание нового пользователя
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+                 POST /Todo
+                 {
+                    "email" : "A4Tech Bloody B188",
+                    "password" : "!Pa$$word123@",
+                 }
+            
+             </remarks>
+             <param name="model">Пользователь</param>
+             <returns></returns>
+        </member>
+        <member name="M:BackendApi.Controllers.UserController.Update(Domain.Models.User)">
+             <summary>
+             Изменение данных пользователя
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+                 PUT /Todo
+                 {
+                    "email" : "A4Tech Bloody B188",
+                    "password" : "!Pa$$word123@",
+                 }
+            
+             </remarks>
+             <param name="model">Пользователь</param>
+             <returns></returns>
+        </member>
+        <member name="M:BackendApi.Controllers.UserController.Delete(System.Int32)">
+             <summary>
+             Удаление пользователя
+             </summary>
+             <remarks>
+             Пример запроса:
+            
+                 DELETE /Todo
+                 {
+                    "email" : "A4Tech Bloody B188",
+                    "password" : "!Pa$$word123@",
+                 }
+            
+             </remarks>
+             <param name="model">Пользователь</param>
+             <returns></returns>
+        </member>
+    </members>
+</doc>

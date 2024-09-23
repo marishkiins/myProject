@@ -14,18 +14,68 @@ namespace BackendApi.Controllers
             _userService = userService;
         }
 
+
+        /// <summary>
+        /// Все пользователи
+        /// </summary>
+        /// <remarks>
+        /// Пример запроса:
+        ///
+        ///     GETall /Todo
+        ///
+        /// </remarks>
+        /// <param name="model">Пользователь</param>
+        /// <returns></returns>
+
+        // GET api/<UsersController>
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
             return Ok(await _userService.GetAll());
         }
 
+
+        /// <summary>
+        /// Поиск пользователя по id
+        /// </summary>
+        /// <remarks>
+        /// Пример запроса:
+        ///
+        ///     GETbyId /Todo
+        ///     {
+        ///        "id" : "1"
+        ///     }
+        ///
+        /// </remarks>
+        /// <param name="model">Пользователь</param>
+        /// <returns></returns>
+
+        // GET api/<UsersController>
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
         {
             return Ok(await _userService.GetById(id));
         }
 
+
+
+        /// <summary>
+        /// Создание нового пользователя
+        /// </summary>
+        /// <remarks>
+        /// Пример запроса:
+        ///
+        ///     POST /Todo
+        ///     {
+        ///        "email" : "A4Tech Bloody B188",
+        ///        "password" : "!Pa$$word123@",
+        ///     }
+        ///
+        /// </remarks>
+        /// <param name="model">Пользователь</param>
+        /// <returns></returns>
+
+        // POST api/<UsersController>
         [HttpPost]
         public async Task<IActionResult> Add(User user)
         {
@@ -33,6 +83,25 @@ namespace BackendApi.Controllers
             return Ok();
         }
 
+
+        /// <summary>
+        /// Изменение данных пользователя
+        /// </summary>
+        /// <remarks>
+        /// Пример запроса:
+        ///
+        ///     PUT /Todo
+        ///     {
+        ///        "id" : "1",
+        ///        "email" : "A4Tech Bloody B188",
+        ///        "password" : "!Pa$$word123@",
+        ///     }
+        ///
+        /// </remarks>
+        /// <param name="model">Пользователь</param>
+        /// <returns></returns>
+
+        // PUT api/<UsersController>
         [HttpPut]
         public async Task<IActionResult> Update(User user)
         {
@@ -40,6 +109,25 @@ namespace BackendApi.Controllers
             return Ok();
         }
 
+
+        /// <summary>
+        /// Удаление пользователя
+        /// </summary>
+        /// <remarks>
+        /// Пример запроса:
+        ///
+        ///     DELETE /Todo
+        ///     {
+        ///         "id" : "1",
+        ///        "email" : "A4Tech Bloody B188",
+        ///        "password" : "!Pa$$word123@",
+        ///     }
+        ///
+        /// </remarks>
+        /// <param name="model">Пользователь</param>
+        /// <returns></returns>
+
+        // DELETE api/<UsersController>
         [HttpDelete]
         public async Task<IActionResult> Delete(int id)
         {
